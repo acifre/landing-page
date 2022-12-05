@@ -1,9 +1,19 @@
 body {
     display: flex;
-    flex-direction: column;
     margin: 0;
     padding: 0px;
+}
+
+.side-view {
     flex: 1;
+}
+
+.middle-view {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 2;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 ul {
@@ -13,14 +23,10 @@ ul {
 }
 
 .first-section {
-    background: #1F2937;
-    color: white;
-}
-
-.background-container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    background: #1F2937;
+    color: white;
 }
 
 .header {
@@ -51,6 +57,7 @@ ul {
     background-color: #1F2937;
     color: white;
     padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .main-heading {
@@ -59,9 +66,53 @@ ul {
     font-weight: bolder;
 }
 .main-image {
-
     max-width: 500px;
     height: auto;
     
+}
+
+.second-section {
+    display: flex;
+    flex-direction: column;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+
+.information-header {
+    display: flex;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    justify-content: center;
+    padding-bottom: 32px;
+}
+
+.image-row {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.image-text-view {
+    display: flex;
+    flex-direction: column;
+}
+
+.showcase {
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.image-text {
+    display: flex;
+    justify-content: space-between;
+}
+
+.third-section {
+    display: flex;
+    flex-direction: column;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
